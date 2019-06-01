@@ -12,7 +12,7 @@ addends = str.split('+')
 for i in range(len(addends)):
 	if "-" in addends[i]:
 		dif = addends[i].split("-")
-		addends[i] = dif[0] - summarize(dif[1:])
+		addends[i] = int(dif[0]) - summarize(dif[1:])
 
 sum = summarize(addends)
 print(sum)
