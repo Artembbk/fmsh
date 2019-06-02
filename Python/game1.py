@@ -18,14 +18,6 @@ while len(word) > 0:
 			print("Таких букв несколько!")
 			n = int(input("Введите, какой по счету идет нужна вам буква"))
 
-'''
-		letter_ind = int(input("Введите неотрицателтный индекс буквы, начиная с нуля: "))
-		if (letter_ind > len(word) - 1) or (letter_ind < 0):
-			print("Ошибка! Индекс первышает длину слова или меньше нуля. Повторите ход.")
-			continue
-
-		word = word[:letter_ind] + word[letter_ind + 1:]
-'''
 	elif move == 2:
 		letter = input("Введите букву: ")
 
